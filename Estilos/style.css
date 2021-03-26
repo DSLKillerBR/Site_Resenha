@@ -1,0 +1,59 @@
+html
+{
+    height: 100%; 
+}
+
+/* CSS Cabeçalho - Início */
+
+body, ul, li, p 
+{ 
+    
+    margin: 0px;
+    padding: 0px; 
+    font-size: 1rem; 
+     
+}
+
+header navbar-brand{
+    color: white;
+}
+
+body h2{
+    color: #9e6c2f;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    padding-top: 10px;
+    font-size: 260%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.footer { /* rodapé */
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px; 
+    margin-left: 10px; 
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.cartoes_filmes{
+    width: 100%;
+    
+}
+
+
+
+

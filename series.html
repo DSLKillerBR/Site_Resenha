@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Estilos/style.css"> <!--usado para ler o arquivo .css-->
+    <title>Resenhas Isinha Magal</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/6686f870aa.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> <!-- Lendo o CSS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> <!-- Lendo o JS do Bootstrap-->
+</head>
+
+<body>
+    <header class="header"> <!--colocar a class="nome_da_class" para facilitar edição no .css-->
+        <!--Colocar o menu, logo e campos de busca aqui-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9c7648;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: white; font-weight: bolder;">RESENHAS MAGAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white; font-weight: bolder;">Página Inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="livros.html" style="color: white; font-weight: bolder;">Livros </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="series.html" style="background-color: white; color: #6e4410; font-weight: bolder;">Séries </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="filmes.html" style="color: white; font-weight: bolder;">Filmes </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bolder;">
+                      Faça você mesma(o)
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Escreva sua resenha</a></li>
+                      <li><a class="dropdown-item" href="#">Recomende um livro</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Entre em contato</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Digite algo..." aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit" style="color: white; font-weight: bolder;">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+   
+
+    
+    <h2 class="titulo_series">Séries</h2>
+    <div class="cartoes_series">
+        <div class="card-group">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/riverdale.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Riverdale</h5>
+                <p class="card-text">
+                  Riverdale acompanha um grupo de adolescentes formado por Archie, Betty, Veronica e Jughead Jones, todos alunos do ensino médio. Depois de uma trágica perda, Archie embarca em uma jornada para realizar o seu sonho de se tornar um grande músico. 
+                </p> 
+                <p>
+                  Mas ele vai precisar da ajuda de seus amigos, que às vezes só atrapalham.
+ 
+                </p>
+                <button type="button" class="btn btn-primary">Ler mais</button>
+            </div>
+              <div class="card-footer">
+                <small class="text-muted" >Alterado pela última vez há 23 min atrás</small>
+              </div>
+            </div>
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/peakyblindes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Peaky Blinders</h5>
+                    <p class="card-text">
+                      Em Peaky Blinders, Thomas Shelby e seus irmãos retornam a Birmingham depois de servir no exército britânico durante a Primeira Guerra Mundial.
+                    </p> 
+                    <p>
+                      Shelby e os Peaky Blinders, a gangue de criminosos da qual ele é líder, controlam a cidade com mãos de ferro, construindo um império que vai desde corridas de cavalo adulteradas e roubo de carregamentos até parcerias secretas com os russos. 
+                    </p> 
+                    <p>
+                      Ao mesmo tempo que vive as transformações políticas, econômicas e sociais do início do século 20, Shelby precisa lidar com os traumas de seu próprio passado - que parecem atormentá-lo diariamente.
+  
+                    </p>
+                    <button type="button" class="btn btn-primary">Ler mais</button>
+                </div>
+              <div class="card-footer">
+                <small class="text-muted">Alterado pela última vez há 12 min atrás</small>
+              </div>
+            </div>
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/strangerthings.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Stranger Things</h5>
+                <p class="card-text">
+                  Em Stranger Things, quando Will, um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper inicia uma operação para encontrá-lo. 
+                </p> 
+                <p>
+                  Enquanto isso, Mike, Dustin e Lucas, melhores amigos de Will, decidem procurá-lo por conta própria. 
+                </p> 
+                <p>
+                  Mas as investigações acabam levando o grupo a experimentos secretos do governo e a uma peculiar menina perdida na floresta.
+
+                </p>
+                <button type="button" class="btn btn-primary">Ler mais</button>
+            </div>
+              <div class="card-footer">
+                <small class="text-muted">Alterado pela última vez há 4 hrs atrás</small>
+              </div>
+            </div>
+          </div>
+    </div>
+
+   
+
+    <footer class="footer"> <!--Rodapé-->
+       
+        Copyright 2020 - Todos os direitos reservados      Isinhamagal.com.br
+
+                    
+    </footer>
+</body>
+
+</html>

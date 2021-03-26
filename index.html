@@ -15,32 +15,32 @@
 <body>
     <header class="header"> <!--colocar a class="nome_da_class" para facilitar edição no .css-->
         <!--Colocar o menu, logo e campos de busca aqui-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9c7648;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#" style=" color: white; font-weight: bolder;">RESENHAS MAGAL</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+                    <a class="nav-link active" aria-current="page" href="index.html" style="background-color: white; color: #6e4410; font-weight: bolder;">Página Inicial</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Livros </a>
+                    <a id="livros" class="nav-link" href="livros.html" style="color: white; font-weight: bolder;" onmouseover="this.style.color='#6e4410'"; onmouseout="this.style.color='white'"; >Livros </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Séries </a>
+                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;">Séries </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Filmes </a>
+                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;">Filmes </a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bolder;">
                       Faça você mesma(o)
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Escreva sua resenha</a></li>
+                      <li><a class="dropdown-item" href="escreva.html">Escreva sua resenha</a></li>
                       <li><a class="dropdown-item" href="#">Recomende um livro</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Entre em contato</a></li>
@@ -49,7 +49,7 @@
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Digite algo..." aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                  <button class="btn btn-outline-light" type="submit" style="color: white; font-weight: bolder;">Pesquisar</button>
                 </form>
               </div>
             </div>
@@ -62,7 +62,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" >
           <div class="carousel-item active">
             <img src="..." class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
@@ -98,120 +98,228 @@
     <h2 class="titulo_series">Séries</h2>
     <div class="cartoes_series">
         <div class="card-group">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/riverdale.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Riverdale</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">
+                  Riverdale acompanha um grupo de adolescentes formado por Archie, Betty, Veronica e Jughead Jones, todos alunos do ensino médio. Depois de uma trágica perda, Archie embarca em uma jornada para realizar o seu sonho de se tornar um grande músico. 
+                </p> 
+                <p>
+                  Mas ele vai precisar da ajuda de seus amigos, que às vezes só atrapalham.
+ 
+                </p>
                 <button type="button" class="btn btn-primary">Ler mais</button>
             </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted" >Alterado pela última vez há 23 min atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/peakyblindes.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Peaky Blinders</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                      Em Peaky Blinders, Thomas Shelby e seus irmãos retornam a Birmingham depois de servir no exército britânico durante a Primeira Guerra Mundial.
+                    </p> 
+                    <p>
+                      Shelby e os Peaky Blinders, a gangue de criminosos da qual ele é líder, controlam a cidade com mãos de ferro, construindo um império que vai desde corridas de cavalo adulteradas e roubo de carregamentos até parcerias secretas com os russos. 
+                    </p> 
+                    <p>
+                      Ao mesmo tempo que vive as transformações políticas, econômicas e sociais do início do século 20, Shelby precisa lidar com os traumas de seu próprio passado - que parecem atormentá-lo diariamente.
+  
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 12 min atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/strangerthings.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Stranger Things</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text">
+                  Em Stranger Things, quando Will, um menino de 12 anos, desaparece misteriosamente, o xerife Jim Hopper inicia uma operação para encontrá-lo. 
+                </p> 
+                <p>
+                  Enquanto isso, Mike, Dustin e Lucas, melhores amigos de Will, decidem procurá-lo por conta própria. 
+                </p> 
+                <p>
+                  Mas as investigações acabam levando o grupo a experimentos secretos do governo e a uma peculiar menina perdida na floresta.
+
+                </p>
                 <button type="button" class="btn btn-primary">Ler mais</button>
             </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 4 hrs atrás</small>
               </div>
             </div>
           </div>
     </div>
+
+
     <h2 class="titulo_livros">Livros</h2>
     <div class="cartoes_livros">
         <div class="card-group">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/delukovcomamor.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">De Lukov, Com Amor</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text" >
+                      Se alguém perguntasse a Jasmine Santos como ela descreveria os últimos anos de sua vida em uma única palavra, ela, definitivamente, usaria uma com quatro letras.
+                    </p> 
+                    <p>
+                      Depois de dezessete anos e incontáveis promessas e ossos quebrados, ela sabe que as portas para competir na patinação artística estão começando a se fechar.
+                    </p> 
+                    <p>
+                      Mas a oferta mais incrível de sua vida surge por meio de um cara arrogante e idiota que ela passou a última década desejando poder lançar na direção de um ônibus em movimento. Então, Jasmine compreende que precisará reconsiderar tudo.
+                    </p> 
+                    <p>
+                      Inclusive Ivan Lukov.
+
+
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted" style="color: #e8e0d5;">Alterado pela última vez há 2 hrs atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/oladofeiodoamor.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">O Lado Feio do Amor</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                      Quando Tate Collins se muda para o apartamento de seu irmão, Corbin, a fim de se dedicar ao mestrado em enfermagem, não imaginava conhecer o lado feio do amor. 
+                    </p> 
+                    <p>
+                      Um relacionamento onde companheirismo e cumplicidade não são prioridades. 
+                    </p> 
+                    <p>
+                      E o sexo parece ser o único objetivo. Mas Miles Archer, piloto de avião, vizinho e melhor amigo de Corbin, sabe ser persuasivo… apesar da armadura emocional que usa para esconder um passado de dor. 
+                    </p> 
+                    <p>
+                      O que Miles e Tate sentem não é amor à primeira vista, mas uma atração incontrolável. Em pouco tempo não conseguem mais resistir e se entregam ao desejo. 
+                    </p> 
+                    <p>
+                      O rapaz impõe duas regras: sem perguntas sobre o passado e sem esperanças para o futuro. Será um relacionamento casual. 
+                    </p> 
+                    <p>
+                      Eles têm a sintonia perfeita. Tate prometeu não se apaixonar. Mas vai descobrir que nenhuma regra é capaz de controlar o amor e o desejo.
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 10 segundos atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/elanoregrey.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Eleanor & Grace</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <h5 class="card-title">Eleanor & Grey</h5>
+                    <p class="card-text">
+                      Quando me apaixonei por ele na juventude, eu não sabia muito da vida. Sabia dos sorrisos dele, das risadas dele, do frio na barriga que sentia quando ele estava por perto.
+                    </p> 
+                    <p>
+                      A vida era perfeita... Até que deixou de ser, e fomos forçados a seguir caminhos diferentes. Abandonei minha primeira paixão, me agarrei a nossas memórias e sonhei com o dia que o encontrava de novo.
+                    </p> 
+                    <p>
+                      Mas, quando meu sonho se tornou realidade, não foi como eu havia imaginado.
+                    </p> 
+                    <p>
+                      Aquele garoto do passado tinha se transformado em um homem frio, solitário e desapegado.
+                    </p> 
+                    <p>
+                      O sorriso e a risada que eu tanto amava tinham desaparecido, agora são apenas lembranças distantes. Cada parte dele estava coberta por uma nova dor.
+                    </p> 
+                    <p>
+                      Como eu gostaria que esse reencontro fosse um segunda chance com a pessoa que havia deixado sua marca em mim...De alguma forma, eu queria poder deixar uma marca na alma dele também.
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 1 dia atrás</small>
               </div>
             </div>
           </div>
     </div>
+
+
 
     <h2 class="titulo_filmes">Filmes</h2>
     <div class="cartoes_filmes">
         <div class="card-group">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/whatif.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">What If</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">
+                      Wallace está sozinho há um ano, após terminar com a namorada depois de vê-la com outro homem. Encerrado o período de luto pelo fim do relacionamento, ele acredita que é hora de seguir em frente. 
+                    </p> 
+                    <p>
+                      Um dia, em uma festa organizada pelo melhor amigo Allan, ele conhece Chantry, a prima dele. Não demora muito para que o papo entre eles flua naturalmente e Wallace se ofereça para levá-la até em casa. 
+                    </p> 
+                    <p>
+                      Mas, ao chegar, ele descobre que Chantry tem um namorado, Ben, o que o desanima. Dias depois, Wallace e Chantry se reencontram por acaso e, após uma rápida conversa, decidem ser apenas amigos. 
+                    </p> 
+                    <p>
+                      A partir de então, eles andam juntos por tudo quanto é canto, apesar de Wallace nutrir um sentimento romântico por ela.
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 3 min atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/comosefosseaprimeiravez.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Como Se Fosse a Primeira Vez</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                      Henry Roth é um veterinário paquerador, que vive no Havaí e é famoso pelo grande número de turistas que conquista. Seu novo alvo é Lucy Whitmore, que mora no local e por quem Henry se apaixona perdidamente. 
+                    </p> 
+                    <p> 
+                      Porém há um problema: Lucy sofre de falta de memória de curto prazo, o que faz com que ela rapidamente se esqueça de fatos que acabaram de acontecer. 
+                    </p>
+                    <p>
+                      Com isso Henry é obrigado a conquistá-la, dia após dia, para ficar ao seu lado.
+                    
+                    </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted">Alterado pela última vez há 12 min atrás</small>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/historiascruzadas.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Histórias Cruzadas</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text">
+                      Nos anos 60, no Mississippi, Skeeter é uma garota da sociedade que retorna determinada a se tornar escritora. 
+                    </p>
+                    <p>
+                      Ela começa a entrevistar as mulheres negras da cidade, que deixaram suas vidas para trabalhar na criação dos filhos da elite branca, da qual a própria Skeeter faz parte. 
+                    </p>
+                    <p>
+                      Aibileen Clark, a emprega da melhor amiga de Skeeter, é a primeira a conceder uma entrevista. 
+                    </p>
+                    <p>
+                      Apesar das críticas, Skeeter e Aibileen continuam trabalhando juntas e, aos poucos, conseguem novas adesões.
+
+
+                  </p>
                     <button type="button" class="btn btn-primary">Ler mais</button>
                 </div>
               <div class="card-footer">
-                <small class="text-muted">Alterado pela última vez há 3 mins atrás</small>
+                <small class="text-muted">Alterado pela última vez há 3 dias atrás</small>
               </div>
             </div>
           </div>
     </div>
 
-    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <nav id="navbar-example2" class="navbar navbar-light px-3" style="background-color: white;">
         <a class="navbar-brand" href="#">Resenhas de vocês!</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -240,8 +348,8 @@
         <p>...</p>
         <h4 id="two">two</h4>
         <p>...</p>
-        <h4 id="three">three</h4>
-        <p>...</p>
+        <h4 id="three" style="background-color: white;">three</h4>
+        <p style="background-color: white;">...</p>
       </div>
     
       <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">

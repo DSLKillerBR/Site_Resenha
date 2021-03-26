@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Estilos/style.css"> <!--usado para ler o arquivo .css-->
+    <title>Resenhas Isinha Magal</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/6686f870aa.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> <!-- Lendo o CSS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> <!-- Lendo o JS do Bootstrap-->
+</head>
+
+<body>
+    <header class="header"> <!--colocar a class="nome_da_class" para facilitar edição no .css-->
+        <!--Colocar o menu, logo e campos de busca aqui-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9c7648;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="color: white; font-weight: bolder;">RESENHAS MAGAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: white; font-weight: bolder;">Página Inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="livros.html" style="color: white; font-weight: bolder;">Livros </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="series.html" style="color: white; font-weight: bolder;">Séries </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="filmes.html" style="background-color: white; color: #6e4410; font-weight: bolder;">Filmes </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bolder;">
+                      Faça você mesma(o)
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Escreva sua resenha</a></li>
+                      <li><a class="dropdown-item" href="#">Recomende um livro</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Entre em contato</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Digite algo..." aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit" style="color: white; font-weight: bolder;">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+   
+
+    
+    <h2 class="titulo_filmes">Filmes</h2>
+    <div class="cartoes_filmes">
+        <div class="card-group">
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/whatif.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">What If</h5>
+                    <p class="card-text">
+                      Wallace está sozinho há um ano, após terminar com a namorada depois de vê-la com outro homem. Encerrado o período de luto pelo fim do relacionamento, ele acredita que é hora de seguir em frente. 
+                    </p> 
+                    <p>
+                      Um dia, em uma festa organizada pelo melhor amigo Allan, ele conhece Chantry, a prima dele. Não demora muito para que o papo entre eles flua naturalmente e Wallace se ofereça para levá-la até em casa. 
+                    </p> 
+                    <p>
+                      Mas, ao chegar, ele descobre que Chantry tem um namorado, Ben, o que o desanima. Dias depois, Wallace e Chantry se reencontram por acaso e, após uma rápida conversa, decidem ser apenas amigos. 
+                    </p> 
+                    <p>
+                      A partir de então, eles andam juntos por tudo quanto é canto, apesar de Wallace nutrir um sentimento romântico por ela.
+                    </p>
+                    <button type="button" class="btn btn-primary">Ler mais</button>
+                </div>
+              <div class="card-footer">
+                <small class="text-muted">Alterado pela última vez há 3 min atrás</small>
+              </div>
+            </div>
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/comosefosseaprimeiravez.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Como Se Fosse a Primeira Vez</h5>
+                    <p class="card-text">
+                      Henry Roth é um veterinário paquerador, que vive no Havaí e é famoso pelo grande número de turistas que conquista. Seu novo alvo é Lucy Whitmore, que mora no local e por quem Henry se apaixona perdidamente. 
+                    </p> 
+                    <p> 
+                      Porém há um problema: Lucy sofre de falta de memória de curto prazo, o que faz com que ela rapidamente se esqueça de fatos que acabaram de acontecer. 
+                    </p>
+                    <p>
+                      Com isso Henry é obrigado a conquistá-la, dia após dia, para ficar ao seu lado.
+                    
+                    </p>
+                    <button type="button" class="btn btn-primary">Ler mais</button>
+                </div>
+              <div class="card-footer">
+                <small class="text-muted">Alterado pela última vez há 12 min atrás</small>
+              </div>
+            </div>
+            <div class="card" style="background-color: #e8e0d5;">
+              <img src="Imagens/historiascruzadas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Histórias Cruzadas</h5>
+                    <p class="card-text">
+                      Nos anos 60, no Mississippi, Skeeter é uma garota da sociedade que retorna determinada a se tornar escritora. 
+                    </p>
+                    <p>
+                      Ela começa a entrevistar as mulheres negras da cidade, que deixaram suas vidas para trabalhar na criação dos filhos da elite branca, da qual a própria Skeeter faz parte. 
+                    </p>
+                    <p>
+                      Aibileen Clark, a emprega da melhor amiga de Skeeter, é a primeira a conceder uma entrevista. 
+                    </p>
+                    <p>
+                      Apesar das críticas, Skeeter e Aibileen continuam trabalhando juntas e, aos poucos, conseguem novas adesões.
+
+
+                  </p>
+                    <button type="button" class="btn btn-primary">Ler mais</button>
+                </div>
+              <div class="card-footer">
+                <small class="text-muted">Alterado pela última vez há 3 dias atrás</small>
+              </div>
+            </div>
+          </div>
+    </div>
+
+   
+
+    <footer class="footer"> <!--Rodapé-->
+       
+        Copyright 2020 - Todos os direitos reservados      Isinhamagal.com.br
+
+                    
+    </footer>
+</body>
+
+</html>
