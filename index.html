@@ -17,7 +17,7 @@
         <!--Colocar o menu, logo e campos de busca aqui-->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9c7648;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#" style=" color: white; font-weight: bolder;">RESENHAS MAGAL</a>
+              <a class="navbar-brand" href="index.html" style=" color: white; font-weight: bolder;">RESENHAS MAGAL</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,13 +30,13 @@
                     <a id="livros" class="nav-link" href="livros.html" style="color: white; font-weight: bolder;" onmouseover="this.style.color='#6e4410'"; onmouseout="this.style.color='white'"; >Livros </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;">Séries </a>
+                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;" onmouseover="this.style.color='#6e4410'"; onmouseout="this.style.color='white'";>Séries </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;">Filmes </a>
+                    <a class="nav-link" href="#" style="color: white; font-weight: bolder;" onmouseover="this.style.color='#6e4410'"; onmouseout="this.style.color='white'";>Filmes </a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bolder;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white; font-weight: bolder;" onmouseover="this.style.color='#6e4410'"; onmouseout="this.style.color='white'";>
                       Faça você mesma(o)
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -47,8 +47,13 @@
                     </ul>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-outline-light" style="color: wheat; font-weight: bold;">Entrar</button>
+                <div class="entrar">
+                  <button type="button" class="btn btn-outline-light" style="color: wheat; font-weight: bold;">Entrar</button>
+                </div>
+                <div class="cadastro">
                 <button type="button" class="btn btn-outline-light" style="font-weight: bold;">Cadastrar</button>
+                </div>
+                
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Digite algo..." aria-label="Search">
                   <button class="btn btn-outline-light" type="submit" style="color: white; font-weight: bolder;">Pesquisar</button>
@@ -101,7 +106,9 @@
     <div class="cartoes_series">
         <div class="card-group">
             <div class="card" style="background-color: #e8e0d5;">
+              
               <img src="Imagens/riverdale.jpg" class="card-img-top" alt="...">
+              
               <div class="card-body">
                 <h5 class="card-title">Riverdale</h5>
                 <p class="card-text">
@@ -189,8 +196,10 @@
               </div>
             </div>
             <div class="card" style="background-color: #e8e0d5;">
-              <img src="Imagens/oladofeiodoamor.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+              <div class="imagem_olado">
+                <img src="Imagens/oladofeiodoamor.jpg" class="card-img-top" alt="...">
+              </div>  
+              <div class="card-body">
                     <h5 class="card-title">O Lado Feio do Amor</h5>
                     <p class="card-text">
                       Quando Tate Collins se muda para o apartamento de seu irmão, Corbin, a fim de se dedicar ao mestrado em enfermagem, não imaginava conhecer o lado feio do amor. 
